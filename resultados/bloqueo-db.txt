@@ -1,0 +1,13 @@
+Cuenta: seg.bloqueo.20261109030910-1432993@signbb.test
+Clave SHA-256: 0e903c7e65a38b05c630541cfa30c63ee820b1328a2eeb945fc9e07d7b745d22
+
+tipo|contador|bloqueado_hasta|expira_en
+REGISTRO_CUENTA|1||2026-11-09 04:09:10.673777-05
+LOGIN_CUENTA|5|2026-11-09 03:24:13.48401-05|2026-11-09 03:24:13.48401-05
+
+# Después de la recuperación (03:28)
+Cuenta: seg.bloqueo.20261109030910-1432993@signbb.test
+Clave SHA-256: 0e903c7e65a38b05c630541cfa30c63ee820b1328a2eeb945fc9e07d7b745d22
+
+tipo|contador|bloqueado_hasta|expira_en
+REGISTRO_CUENTA|1||2026-11-09 04:09:10.673777-05

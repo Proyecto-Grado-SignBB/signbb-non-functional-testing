@@ -1,0 +1,317 @@
+{
+  "metrics": {
+    "vus": {
+      "value": 2,
+      "min": 2,
+      "max": 100
+    },
+    "http_req_connecting": {
+      "p(90)": 0,
+      "p(95)": 0,
+      "p(99)": 100.04851387999967,
+      "max": 135.136073,
+      "avg": 1.2422563082364837,
+      "min": 0,
+      "med": 0
+    },
+    "http_reqs": {
+      "count": 9895,
+      "rate": 30.8994979524456
+    },
+    "iterations": {
+      "count": 1649,
+      "rate": 5.149395868982596
+    },
+    "iteration_duration": {
+      "p(99)": 22137.2474524,
+      "max": 23294.645665,
+      "avg": 18739.27872092479,
+      "min": 13786.496768,
+      "med": 18717.898689,
+      "p(90)": 20641.7688828,
+      "p(95)": 21150.719571199996
+    },
+    "checks": {
+      "passes": 42874,
+      "fails": 0,
+      "thresholds": {
+        "rate>0.99": false
+      },
+      "value": 1
+    },
+    "http_req_blocked": {
+      "p(95)": 0.001738,
+      "p(99)": 226.27446011999666,
+      "max": 549.893166,
+      "avg": 4.139505364325406,
+      "min": 0.000174,
+      "med": 0.000533,
+      "p(90)": 0.001306
+    },
+    "http_req_waiting": {
+      "med": 110.053629,
+      "p(90)": 130.895022,
+      "p(95)": 148.0430796,
+      "p(99)": 366.8430942199969,
+      "max": 1081.388886,
+      "avg": 119.93863502789264,
+      "min": 85.65869
+    },
+    "http_req_duration{expected_response:true}": {
+      "avg": 120.94176828650824,
+      "min": 86.281834,
+      "med": 110.819504,
+      "p(90)": 132.00121060000004,
+      "p(95)": 149.1476171,
+      "p(99)": 366.9866266199968,
+      "max": 1083.114521
+    },
+    "http_req_tls_handshaking": {
+      "med": 0,
+      "p(90)": 0,
+      "p(95)": 0,
+      "p(99)": 125.335394299998,
+      "max": 423.405582,
+      "avg": 2.8805307841334,
+      "min": 0
+    },
+    "http_req_duration": {
+      "avg": 120.94176828650824,
+      "min": 86.281834,
+      "med": 110.819504,
+      "p(90)": 132.00121060000004,
+      "p(95)": 149.1476171,
+      "p(99)": 366.9866266199968,
+      "max": 1083.114521
+    },
+    "http_req_sending": {
+      "avg": 0.19563314037392676,
+      "min": 0.030971,
+      "med": 0.142503,
+      "p(90)": 0.3518074000000001,
+      "p(95)": 0.42478379999999993,
+      "p(99)": 0.8462183999999993,
+      "max": 3.478496
+    },
+    "data_sent": {
+      "count": 1753542,
+      "rate": 5475.853202478763
+    },
+    "http_req_receiving": {
+      "max": 136.873666,
+      "avg": 0.8075001182415406,
+      "min": 0.017575,
+      "med": 0.090598,
+      "p(90)": 2.1512290000000007,
+      "p(95)": 3.454216199999997,
+      "p(99)": 9.807269179999983
+    },
+    "vus_max": {
+      "value": 100,
+      "min": 100,
+      "max": 100
+    },
+    "data_received": {
+      "count": 8027865,
+      "rate": 25068.92350985444
+    },
+    "http_req_failed": {
+      "passes": 0,
+      "fails": 9895,
+      "thresholds": {
+        "rate<0.01": false
+      },
+      "value": 0
+    }
+  },
+  "root_group": {
+    "id": "d41d8cd98f00b204e9800998ecf8427e",
+    "groups": {},
+    "checks": {
+      "inicio 200": {
+        "name": "inicio 200",
+        "path": "::inicio 200",
+        "id": "62497f6d8a8bd941fb97d92f0a435b25",
+        "passes": 1649,
+        "fails": 0
+      },
+      "inicio con recorrido": {
+        "name": "inicio con recorrido",
+        "path": "::inicio con recorrido",
+        "id": "e612234ffed170e8d77f6074fe5de864",
+        "passes": 1649,
+        "fails": 0
+      },
+      "RD-04 inicio": {
+        "name": "RD-04 inicio",
+        "path": "::RD-04 inicio",
+        "id": "efe187f4c437704e82f7c85093b6591c",
+        "passes": 1649,
+        "fails": 0
+      },
+      "paso 0 con opción esperada": {
+        "name": "paso 0 con opción esperada",
+        "path": "::paso 0 con opción esperada",
+        "id": "a58d0dead415029d90f9fd5e618792c7",
+        "passes": 1649,
+        "fails": 0
+      },
+      "paso 0 con identificador": {
+        "name": "paso 0 con identificador",
+        "path": "::paso 0 con identificador",
+        "id": "ea89094d5ee76305259dc2591e09aa1f",
+        "passes": 1649,
+        "fails": 0
+      },
+      "respuesta 0 200": {
+        "passes": 1649,
+        "fails": 0,
+        "name": "respuesta 0 200",
+        "path": "::respuesta 0 200",
+        "id": "472468f0f576eed5274c991ec803be51"
+      },
+      "RD-04 respuesta 0": {
+        "name": "RD-04 respuesta 0",
+        "path": "::RD-04 respuesta 0",
+        "id": "3a691c70b5d8b5d86af3107f1cbcf777",
+        "passes": 1649,
+        "fails": 0
+      },
+      "paso 1 con opción esperada": {
+        "passes": 1649,
+        "fails": 0,
+        "name": "paso 1 con opción esperada",
+        "path": "::paso 1 con opción esperada",
+        "id": "703aca86aa9705e5993e702389269e64"
+      },
+      "paso 1 con identificador": {
+        "fails": 0,
+        "name": "paso 1 con identificador",
+        "path": "::paso 1 con identificador",
+        "id": "83b4ed87f5179acc3014c31e24616aa9",
+        "passes": 1649
+      },
+      "respuesta 1 200": {
+        "name": "respuesta 1 200",
+        "path": "::respuesta 1 200",
+        "id": "cb9e0d0b0a4a60f7a41fbc0515453a81",
+        "passes": 1649,
+        "fails": 0
+      },
+      "RD-04 respuesta 1": {
+        "fails": 0,
+        "name": "RD-04 respuesta 1",
+        "path": "::RD-04 respuesta 1",
+        "id": "b0f659e956ec3ff394d4bb4e07130a87",
+        "passes": 1649
+      },
+      "paso 2 con opción esperada": {
+        "fails": 0,
+        "name": "paso 2 con opción esperada",
+        "path": "::paso 2 con opción esperada",
+        "id": "5170ae7fa49679141e4c555844bf46b2",
+        "passes": 1649
+      },
+      "paso 2 con identificador": {
+        "name": "paso 2 con identificador",
+        "path": "::paso 2 con identificador",
+        "id": "cb859ffd78c746e57a0b7608ee4fa952",
+        "passes": 1649,
+        "fails": 0
+      },
+      "respuesta 2 200": {
+        "id": "5515f9b481a9434aae388f7b50989168",
+        "passes": 1649,
+        "fails": 0,
+        "name": "respuesta 2 200",
+        "path": "::respuesta 2 200"
+      },
+      "RD-04 respuesta 2": {
+        "name": "RD-04 respuesta 2",
+        "path": "::RD-04 respuesta 2",
+        "id": "cda5dc30efc17c93d8bca15f34125995",
+        "passes": 1649,
+        "fails": 0
+      },
+      "paso 3 con opción esperada": {
+        "path": "::paso 3 con opción esperada",
+        "id": "7a154b018c4ab650a67e8f0f5412d7aa",
+        "passes": 1649,
+        "fails": 0,
+        "name": "paso 3 con opción esperada"
+      },
+      "paso 3 con identificador": {
+        "passes": 1649,
+        "fails": 0,
+        "name": "paso 3 con identificador",
+        "path": "::paso 3 con identificador",
+        "id": "852d58738921498eec8a8cdb6d3aff07"
+      },
+      "respuesta 3 200": {
+        "name": "respuesta 3 200",
+        "path": "::respuesta 3 200",
+        "id": "732b027b7df032573308beaeac2b33e1",
+        "passes": 1649,
+        "fails": 0
+      },
+      "RD-04 respuesta 3": {
+        "name": "RD-04 respuesta 3",
+        "path": "::RD-04 respuesta 3",
+        "id": "c7a4bdc861f91619ab6effd08a25b580",
+        "passes": 1649,
+        "fails": 0
+      },
+      "paso 4 con opción esperada": {
+        "id": "ca645d1567352d1ac302be0ef2962539",
+        "passes": 1649,
+        "fails": 0,
+        "name": "paso 4 con opción esperada",
+        "path": "::paso 4 con opción esperada"
+      },
+      "paso 4 con identificador": {
+        "fails": 0,
+        "name": "paso 4 con identificador",
+        "path": "::paso 4 con identificador",
+        "id": "8f5b7f73e12965a3c3459a3b2ff394b8",
+        "passes": 1649
+      },
+      "respuesta 4 200": {
+        "id": "560f0b94071d8670488fdea88a6d56b7",
+        "passes": 1649,
+        "fails": 0,
+        "name": "respuesta 4 200",
+        "path": "::respuesta 4 200"
+      },
+      "RD-04 respuesta 4": {
+        "path": "::RD-04 respuesta 4",
+        "id": "9bc599e843f511947e0c70b1136c562b",
+        "passes": 1649,
+        "fails": 0,
+        "name": "RD-04 respuesta 4"
+      },
+      "recorrido finalizado": {
+        "name": "recorrido finalizado",
+        "path": "::recorrido finalizado",
+        "id": "b3555d113bc3cc17c2fcd3e03214e4c9",
+        "passes": 1649,
+        "fails": 0
+      },
+      "nivel esperado": {
+        "name": "nivel esperado",
+        "path": "::nivel esperado",
+        "id": "00ea0d6cfd5b7fca47eab8b18d6ca5e9",
+        "passes": 1649,
+        "fails": 0
+      },
+      "regla esperada": {
+        "id": "1255a70a5ae582458ad535a43cc0179d",
+        "passes": 1649,
+        "fails": 0,
+        "name": "regla esperada",
+        "path": "::regla esperada"
+      }
+    },
+    "name": "",
+    "path": ""
+  }
+}

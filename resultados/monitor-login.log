@@ -1,0 +1,133 @@
+2026-11-09T08:27:00+00:00
+signbb-backend-1 0.21% 563.6MiB / 7.755GiB
+signbb-web-1 0.00% 21.59MiB / 7.755GiB
+signbb-db-1 0.00% 64.02MiB / 7.755GiB
+signbb-cache-1 0.33% 18.98MiB / 7.755GiB
+signbb-silo-1 0.05% 59.11MiB / 7.755GiB
+ 0  0      0 1561472 133768 5432668    0    0     0    96  366  448  0  0 100  0  0  0
+2026-11-09T08:27:08+00:00
+signbb-backend-1 46.47% 564.3MiB / 7.755GiB
+signbb-web-1 0.39% 21.59MiB / 7.755GiB
+signbb-db-1 4.61% 64.11MiB / 7.755GiB
+signbb-cache-1 0.22% 18.73MiB / 7.755GiB
+signbb-silo-1 0.05% 59.11MiB / 7.755GiB
+ 0  0      0 1546664 133768 5432688    0    0     0    72 1265 1066 29  1 69  1  0  0
+2026-11-09T08:27:16+00:00
+signbb-backend-1 43.19% 564.7MiB / 7.755GiB
+signbb-web-1 0.87% 21.58MiB / 7.755GiB
+signbb-db-1 1.51% 65.05MiB / 7.755GiB
+signbb-cache-1 0.23% 18.73MiB / 7.755GiB
+signbb-silo-1 0.03% 59.12MiB / 7.755GiB
+16  0      0 1558496 133776 5432976    0    0     0    48 3859 5730 35  7 58  0  0  0
+2026-11-09T08:27:24+00:00
+signbb-backend-1 185.53% 565.6MiB / 7.755GiB
+signbb-web-1 2.76% 23.04MiB / 7.755GiB
+signbb-db-1 2.45% 65.32MiB / 7.755GiB
+signbb-cache-1 3.74% 18.73MiB / 7.755GiB
+signbb-silo-1 0.04% 59.12MiB / 7.755GiB
+10  0      0 1555064 133776 5433104    0    0     0     0 3106 4261 96  4  0  0  0  0
+2026-11-09T08:27:33+00:00
+signbb-backend-1 193.06% 566MiB / 7.755GiB
+signbb-web-1 2.93% 24.87MiB / 7.755GiB
+signbb-db-1 2.03% 65.32MiB / 7.755GiB
+signbb-cache-1 0.19% 18.73MiB / 7.755GiB
+signbb-silo-1 0.00% 59.12MiB / 7.755GiB
+11  0      0 1539200 133776 5433120    0    0     0     0 3001 3595 99  2  0  0  0  0
+2026-11-09T08:27:41+00:00
+signbb-backend-1 193.37% 566.1MiB / 7.755GiB
+signbb-web-1 3.22% 24.9MiB / 7.755GiB
+signbb-db-1 1.90% 65.32MiB / 7.755GiB
+signbb-cache-1 0.20% 18.73MiB / 7.755GiB
+signbb-silo-1 0.01% 59.12MiB / 7.755GiB
+11  0      0 1549208 133776 5433144    0    0     0     0 3092 4101 98  2  0  0  0  0
+2026-11-09T08:27:49+00:00
+signbb-backend-1 193.25% 566.3MiB / 7.755GiB
+signbb-web-1 2.50% 24.91MiB / 7.755GiB
+signbb-db-1 2.11% 65.32MiB / 7.755GiB
+signbb-cache-1 0.18% 18.73MiB / 7.755GiB
+signbb-silo-1 0.02% 59.12MiB / 7.755GiB
+10  0      0 1557668 133776 5433188    0    0     0     0 2936 3346 99  1  0  0  0  0
+2026-11-09T08:27:57+00:00
+signbb-backend-1 189.43% 566.3MiB / 7.755GiB
+signbb-web-1 2.41% 24.91MiB / 7.755GiB
+signbb-db-1 2.05% 65.32MiB / 7.755GiB
+signbb-cache-1 0.19% 18.73MiB / 7.755GiB
+signbb-silo-1 0.03% 59.12MiB / 7.755GiB
+11  0      0 1548852 133780 5433188    0    0     0    80 3037 4220 96  3  0  0  1  0
+2026-11-09T08:28:05+00:00
+signbb-backend-1 189.72% 566.4MiB / 7.755GiB
+signbb-web-1 3.30% 24.91MiB / 7.755GiB
+signbb-db-1 2.36% 65.46MiB / 7.755GiB
+signbb-cache-1 2.25% 18.73MiB / 7.755GiB
+signbb-silo-1 0.00% 59.12MiB / 7.755GiB
+11  0      0 1540772 133780 5433220    0    0     0     0 3036 3668 98  2  0  0  0  0
+2026-11-09T08:28:14+00:00
+signbb-backend-1 191.40% 566.4MiB / 7.755GiB
+signbb-web-1 2.72% 24.93MiB / 7.755GiB
+signbb-db-1 2.23% 65.7MiB / 7.755GiB
+signbb-cache-1 0.20% 18.73MiB / 7.755GiB
+signbb-silo-1 0.05% 59.12MiB / 7.755GiB
+11  0      0 1556512 133784 5433248    0    0     0     0 3167 4513 98  3  0  0  0  0
+2026-11-09T08:28:22+00:00
+signbb-backend-1 0.17% 566.4MiB / 7.755GiB
+signbb-web-1 6.71% 24.72MiB / 7.755GiB
+signbb-db-1 0.00% 65.35MiB / 7.755GiB
+signbb-cache-1 0.22% 18.73MiB / 7.755GiB
+signbb-silo-1 0.00% 59.12MiB / 7.755GiB
+ 1  0      0 1529600 133784 5433212    0    0     0     0  360  427  0  0 100  0  0  0
+2026-11-09T08:28:30+00:00
+signbb-backend-1 0.18% 566.3MiB / 7.755GiB
+signbb-web-1 0.00% 24.72MiB / 7.755GiB
+signbb-db-1 0.00% 65.34MiB / 7.755GiB
+signbb-cache-1 0.22% 18.73MiB / 7.755GiB
+signbb-silo-1 0.11% 59.12MiB / 7.755GiB
+ 0  0      0 1552868 133788 5433204    0    0     0     0  344  395  0  0 100  0  0  0
+2026-11-09T08:28:38+00:00
+signbb-backend-1 0.20% 566.4MiB / 7.755GiB
+signbb-web-1 0.00% 21.2MiB / 7.755GiB
+signbb-db-1 0.01% 65.36MiB / 7.755GiB
+signbb-cache-1 0.23% 18.73MiB / 7.755GiB
+signbb-silo-1 0.04% 59.12MiB / 7.755GiB
+ 0  0      0 1566924 133788 5433204    0    0     0     8  869 1665  2  2 97  0  0  0
+2026-11-09T08:28:46+00:00
+signbb-backend-1 0.21% 566.4MiB / 7.755GiB
+signbb-web-1 0.00% 21.2MiB / 7.755GiB
+signbb-db-1 0.02% 65.36MiB / 7.755GiB
+signbb-cache-1 0.24% 18.73MiB / 7.755GiB
+signbb-silo-1 0.04% 59.12MiB / 7.755GiB
+ 0  0      0 1560228 133796 5433204    0    0     0     0  345  425  1  0 99  0  1  0
+2026-11-09T08:28:54+00:00
+signbb-backend-1 0.21% 566.4MiB / 7.755GiB
+signbb-web-1 0.09% 21.19MiB / 7.755GiB
+signbb-db-1 4.15% 65.36MiB / 7.755GiB
+signbb-cache-1 0.23% 18.73MiB / 7.755GiB
+signbb-silo-1 0.06% 59.12MiB / 7.755GiB
+ 0  0      0 1564152 133796 5433204    0    0     0     0  864 1617  2  2 97  0  0  0
+2026-11-09T08:29:02+00:00
+signbb-backend-1 25.55% 567MiB / 7.755GiB
+signbb-web-1 0.74% 21.59MiB / 7.755GiB
+signbb-db-1 0.77% 65.37MiB / 7.755GiB
+signbb-cache-1 0.26% 18.73MiB / 7.755GiB
+signbb-silo-1 0.04% 59.12MiB / 7.755GiB
+ 0  0      0 1558548 133796 5433204    0    0     0     8  639  701  3  1 97  0  0  0
+2026-11-09T08:29:10+00:00
+signbb-backend-1 20.46% 567.2MiB / 7.755GiB
+signbb-web-1 0.72% 21.18MiB / 7.755GiB
+signbb-db-1 0.25% 65.47MiB / 7.755GiB
+signbb-cache-1 0.21% 18.73MiB / 7.755GiB
+signbb-silo-1 0.04% 59.12MiB / 7.755GiB
+ 0  0      0 1549544 133796 5433204    0    0     0     0  550  567  4  0 96  0  0  0
+2026-11-09T08:29:19+00:00
+signbb-backend-1 0.26% 567.2MiB / 7.755GiB
+signbb-web-1 0.05% 21.15MiB / 7.755GiB
+signbb-db-1 4.05% 65.48MiB / 7.755GiB
+signbb-cache-1 0.23% 18.73MiB / 7.755GiB
+signbb-silo-1 0.00% 59.13MiB / 7.755GiB
+ 0  0      0 1546048 133804 5433168    0    0     0     8  919  997  8  3 89  0  0  0
+2026-11-09T08:29:27+00:00
+signbb-backend-1 0.17% 567.2MiB / 7.755GiB
+signbb-web-1 0.00% 21.14MiB / 7.755GiB
+signbb-db-1 0.02% 65.48MiB / 7.755GiB
+signbb-cache-1 3.13% 18.73MiB / 7.755GiB
+signbb-silo-1 0.07% 59.13MiB / 7.755GiB
+ 0  0      0 1552936 133804 5436820    0    0     0     0 2125 4106  5  5 91  0  0  0

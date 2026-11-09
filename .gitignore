@@ -1,0 +1,13 @@
+# Archivo local de credenciales. No se versiona.
+.env
+.env.*
+
+# Plantilla de ejemplo
+!ejemplo/*.example
+
+# Python
+__pycache__/
+*.pyc
+
+# Sistema
+.DS_Store

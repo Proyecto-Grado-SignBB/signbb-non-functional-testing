@@ -1,0 +1,20 @@
+# Override temporal para que Tomcat escriba un access log con el tiempo de
+# procesamiento del servidor (%D, en microsegundos en Tomcat 11) durante las
+# pruebas de desempeño.
+#
+# Uso, desde /opt/signbb/signbb-frontend/deploy:
+#   docker compose -f compose.prod.yaml -f /ruta/compose.accesslog.yaml \
+#     up -d --force-recreate backend
+#
+# Al terminar, recrear el backend solo con compose.prod.yaml para retirar el log.
+
+services:
+  backend:
+    environment:
+      SERVER_TOMCAT_ACCESSLOG_ENABLED: "true"
+      SERVER_TOMCAT_ACCESSLOG_DIRECTORY: "/tmp"
+      SERVER_TOMCAT_ACCESSLOG_PREFIX: "signbb-access"
+      SERVER_TOMCAT_ACCESSLOG_SUFFIX: ".log"
+      SERVER_TOMCAT_ACCESSLOG_ROTATE: "false"
+      SERVER_TOMCAT_ACCESSLOG_BUFFERED: "false"
+      SERVER_TOMCAT_ACCESSLOG_PATTERN: '%t %a "%r" %s %b %D'

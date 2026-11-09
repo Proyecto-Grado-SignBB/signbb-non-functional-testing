@@ -1,0 +1,24 @@
+Limpieza de datos de prueba en signbb@2.25.152.145
+Corte: 2026-11-09T06:00:00Z
+Solo debe usarse en el despliegue de pruebas.
+
+BEGIN
+SELECT 57
+SELECT 3640
+SELECT 16198
+              concepto              | filas 
+------------------------------------+-------
+ usuarios de prueba                 |    57
+ recorridos del seed desde el corte |  3640
+ observaciones asociadas            | 16198
+(3 rows)
+
+DELETE 16198
+DELETE 16198
+DELETE 3642
+DELETE 0
+DELETE 57
+DELETE 59
+COMMIT
+
+Limpieza terminada. Verifica que el backend sigue sano y que el seed permanece.

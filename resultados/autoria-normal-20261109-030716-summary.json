@@ -1,0 +1,177 @@
+{
+  "metrics": {
+    "http_req_sending": {
+      "max": 1.890119,
+      "avg": 0.20768385576923068,
+      "min": 0.052643,
+      "med": 0.13249450000000002,
+      "p(90)": 0.4412718,
+      "p(95)": 0.5775188999999998,
+      "p(99)": 0.79727568
+    },
+    "checks": {
+      "passes": 102,
+      "fails": 0,
+      "thresholds": {
+        "rate>0.99": false
+      },
+      "value": 1
+    },
+    "data_sent": {
+      "count": 20013,
+      "rate": 325.4328367849276
+    },
+    "iterations": {
+      "count": 17,
+      "rate": 0.2764382264200154
+    },
+    "http_reqs": {
+      "count": 104,
+      "rate": 1.6911515028048003
+    },
+    "data_received": {
+      "count": 103698,
+      "rate": 1686.2406590178095
+    },
+    "http_req_blocked": {
+      "max": 526.605286,
+      "avg": 7.096702538461541,
+      "min": 0.0002,
+      "med": 0.000473,
+      "p(90)": 0.0011542000000000002,
+      "p(95)": 0.002290699999999997,
+      "p(99)": 205.00931303999977
+    },
+    "vus_max": {
+      "value": 1,
+      "min": 1,
+      "max": 1
+    },
+    "http_req_duration": {
+      "p(95)": 189.38224784999994,
+      "p(99)": 204.7045957,
+      "max": 211.314659,
+      "avg": 120.57502575961539,
+      "min": 91.635496,
+      "med": 112.367527,
+      "p(90)": 161.9773735
+    },
+    "http_req_receiving": {
+      "avg": 0.26363726923076924,
+      "min": 0.031699,
+      "med": 0.086255,
+      "p(90)": 0.38681040000000005,
+      "p(95)": 1.693512949999997,
+      "p(99)": 2.69473305,
+      "max": 2.958111
+    },
+    "http_req_connecting": {
+      "p(99)": 94.6443705199999,
+      "max": 104.949045,
+      "avg": 1.9473130865384614,
+      "min": 0,
+      "med": 0,
+      "p(90)": 0,
+      "p(95)": 0
+    },
+    "vus": {
+      "value": 1,
+      "min": 1,
+      "max": 1
+    },
+    "http_req_duration{expected_response:true}": {
+      "p(90)": 161.9773735,
+      "p(95)": 189.38224784999994,
+      "p(99)": 204.7045957,
+      "max": 211.314659,
+      "avg": 120.57502575961539,
+      "min": 91.635496,
+      "med": 112.367527
+    },
+    "http_req_tls_handshaking": {
+      "avg": 3.0662384134615386,
+      "min": 0,
+      "med": 0,
+      "p(90)": 0,
+      "p(95)": 0,
+      "p(99)": 103.02940650999989,
+      "max": 212.672912
+    },
+    "iteration_duration": {
+      "max": 4548.640885,
+      "avg": 3569.320454588235,
+      "min": 2981.976913,
+      "med": 3548.493441,
+      "p(90)": 4440.283548,
+      "p(95)": 4476.204729800001,
+      "p(99)": 4534.15365396
+    },
+    "http_req_failed": {
+      "passes": 0,
+      "fails": 104,
+      "thresholds": {
+        "rate<0.01": false
+      },
+      "value": 0
+    },
+    "http_req_waiting": {
+      "avg": 120.10370463461537,
+      "min": 91.372435,
+      "med": 112.012452,
+      "p(90)": 161.7755472,
+      "p(95)": 188.96225514999995,
+      "p(99)": 204.51369559,
+      "max": 211.055795
+    }
+  },
+  "root_group": {
+    "name": "",
+    "path": "",
+    "id": "d41d8cd98f00b204e9800998ecf8427e",
+    "groups": {},
+    "checks": {
+      "crear borrador 201": {
+        "name": "crear borrador 201",
+        "path": "::crear borrador 201",
+        "id": "39cb5430b7f9ebb433cc458c4f77b8fb",
+        "passes": 17,
+        "fails": 0
+      },
+      "crear nodo 200": {
+        "name": "crear nodo 200",
+        "path": "::crear nodo 200",
+        "id": "bdd3904f4142dc2b261e016587d4e842",
+        "passes": 17,
+        "fails": 0
+      },
+      "editar nodo 200": {
+        "fails": 0,
+        "name": "editar nodo 200",
+        "path": "::editar nodo 200",
+        "id": "34ae6f6cb3f60d31424be5135ca75068",
+        "passes": 17
+      },
+      "leer borrador 200": {
+        "name": "leer borrador 200",
+        "path": "::leer borrador 200",
+        "id": "26fb7e505be9d4ecee7023cd8cce9d70",
+        "passes": 17,
+        "fails": 0
+      },
+      "borrar nodo 200": {
+        "id": "a277a77e1db331da5587c4d361fbb9e6",
+        "passes": 17,
+        "fails": 0,
+        "name": "borrar nodo 200",
+        "path": "::borrar nodo 200"
+      },
+      "borrar borrador 204": {
+        "id": "43e4dab5e5c7477fd1ac7d9c236b4738",
+        "passes": 17,
+        "fails": 0,
+        "name": "borrar borrador 204",
+        "path": "::borrar borrador 204"
+      }
+    }
+  }
+}

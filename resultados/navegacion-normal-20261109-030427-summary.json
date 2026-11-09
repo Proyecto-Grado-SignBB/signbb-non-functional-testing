@@ -1,0 +1,317 @@
+{
+  "root_group": {
+    "id": "d41d8cd98f00b204e9800998ecf8427e",
+    "groups": {},
+    "checks": {
+      "inicio 200": {
+        "passes": 4,
+        "fails": 0,
+        "name": "inicio 200",
+        "path": "::inicio 200",
+        "id": "62497f6d8a8bd941fb97d92f0a435b25"
+      },
+      "inicio con recorrido": {
+        "name": "inicio con recorrido",
+        "path": "::inicio con recorrido",
+        "id": "e612234ffed170e8d77f6074fe5de864",
+        "passes": 4,
+        "fails": 0
+      },
+      "RD-04 inicio": {
+        "fails": 0,
+        "name": "RD-04 inicio",
+        "path": "::RD-04 inicio",
+        "id": "efe187f4c437704e82f7c85093b6591c",
+        "passes": 4
+      },
+      "paso 0 con opción esperada": {
+        "name": "paso 0 con opción esperada",
+        "path": "::paso 0 con opción esperada",
+        "id": "a58d0dead415029d90f9fd5e618792c7",
+        "passes": 4,
+        "fails": 0
+      },
+      "paso 0 con identificador": {
+        "name": "paso 0 con identificador",
+        "path": "::paso 0 con identificador",
+        "id": "ea89094d5ee76305259dc2591e09aa1f",
+        "passes": 4,
+        "fails": 0
+      },
+      "respuesta 0 200": {
+        "path": "::respuesta 0 200",
+        "id": "472468f0f576eed5274c991ec803be51",
+        "passes": 4,
+        "fails": 0,
+        "name": "respuesta 0 200"
+      },
+      "RD-04 respuesta 0": {
+        "name": "RD-04 respuesta 0",
+        "path": "::RD-04 respuesta 0",
+        "id": "3a691c70b5d8b5d86af3107f1cbcf777",
+        "passes": 4,
+        "fails": 0
+      },
+      "paso 1 con opción esperada": {
+        "passes": 4,
+        "fails": 0,
+        "name": "paso 1 con opción esperada",
+        "path": "::paso 1 con opción esperada",
+        "id": "703aca86aa9705e5993e702389269e64"
+      },
+      "paso 1 con identificador": {
+        "id": "83b4ed87f5179acc3014c31e24616aa9",
+        "passes": 4,
+        "fails": 0,
+        "name": "paso 1 con identificador",
+        "path": "::paso 1 con identificador"
+      },
+      "respuesta 1 200": {
+        "name": "respuesta 1 200",
+        "path": "::respuesta 1 200",
+        "id": "cb9e0d0b0a4a60f7a41fbc0515453a81",
+        "passes": 4,
+        "fails": 0
+      },
+      "RD-04 respuesta 1": {
+        "fails": 0,
+        "name": "RD-04 respuesta 1",
+        "path": "::RD-04 respuesta 1",
+        "id": "b0f659e956ec3ff394d4bb4e07130a87",
+        "passes": 4
+      },
+      "paso 2 con opción esperada": {
+        "passes": 4,
+        "fails": 0,
+        "name": "paso 2 con opción esperada",
+        "path": "::paso 2 con opción esperada",
+        "id": "5170ae7fa49679141e4c555844bf46b2"
+      },
+      "paso 2 con identificador": {
+        "path": "::paso 2 con identificador",
+        "id": "cb859ffd78c746e57a0b7608ee4fa952",
+        "passes": 4,
+        "fails": 0,
+        "name": "paso 2 con identificador"
+      },
+      "respuesta 2 200": {
+        "fails": 0,
+        "name": "respuesta 2 200",
+        "path": "::respuesta 2 200",
+        "id": "5515f9b481a9434aae388f7b50989168",
+        "passes": 4
+      },
+      "RD-04 respuesta 2": {
+        "name": "RD-04 respuesta 2",
+        "path": "::RD-04 respuesta 2",
+        "id": "cda5dc30efc17c93d8bca15f34125995",
+        "passes": 4,
+        "fails": 0
+      },
+      "paso 3 con opción esperada": {
+        "id": "7a154b018c4ab650a67e8f0f5412d7aa",
+        "passes": 4,
+        "fails": 0,
+        "name": "paso 3 con opción esperada",
+        "path": "::paso 3 con opción esperada"
+      },
+      "paso 3 con identificador": {
+        "fails": 0,
+        "name": "paso 3 con identificador",
+        "path": "::paso 3 con identificador",
+        "id": "852d58738921498eec8a8cdb6d3aff07",
+        "passes": 4
+      },
+      "respuesta 3 200": {
+        "path": "::respuesta 3 200",
+        "id": "732b027b7df032573308beaeac2b33e1",
+        "passes": 4,
+        "fails": 0,
+        "name": "respuesta 3 200"
+      },
+      "RD-04 respuesta 3": {
+        "passes": 4,
+        "fails": 0,
+        "name": "RD-04 respuesta 3",
+        "path": "::RD-04 respuesta 3",
+        "id": "c7a4bdc861f91619ab6effd08a25b580"
+      },
+      "paso 4 con opción esperada": {
+        "name": "paso 4 con opción esperada",
+        "path": "::paso 4 con opción esperada",
+        "id": "ca645d1567352d1ac302be0ef2962539",
+        "passes": 4,
+        "fails": 0
+      },
+      "paso 4 con identificador": {
+        "path": "::paso 4 con identificador",
+        "id": "8f5b7f73e12965a3c3459a3b2ff394b8",
+        "passes": 4,
+        "fails": 0,
+        "name": "paso 4 con identificador"
+      },
+      "respuesta 4 200": {
+        "id": "560f0b94071d8670488fdea88a6d56b7",
+        "passes": 4,
+        "fails": 0,
+        "name": "respuesta 4 200",
+        "path": "::respuesta 4 200"
+      },
+      "RD-04 respuesta 4": {
+        "name": "RD-04 respuesta 4",
+        "path": "::RD-04 respuesta 4",
+        "id": "9bc599e843f511947e0c70b1136c562b",
+        "passes": 4,
+        "fails": 0
+      },
+      "recorrido finalizado": {
+        "name": "recorrido finalizado",
+        "path": "::recorrido finalizado",
+        "id": "b3555d113bc3cc17c2fcd3e03214e4c9",
+        "passes": 4,
+        "fails": 0
+      },
+      "nivel esperado": {
+        "fails": 0,
+        "name": "nivel esperado",
+        "path": "::nivel esperado",
+        "id": "00ea0d6cfd5b7fca47eab8b18d6ca5e9",
+        "passes": 4
+      },
+      "regla esperada": {
+        "passes": 4,
+        "fails": 0,
+        "name": "regla esperada",
+        "path": "::regla esperada",
+        "id": "1255a70a5ae582458ad535a43cc0179d"
+      }
+    },
+    "name": "",
+    "path": ""
+  },
+  "metrics": {
+    "http_reqs": {
+      "count": 25,
+      "rate": 0.3180937555629059
+    },
+    "http_req_connecting": {
+      "med": 0,
+      "p(90)": 0,
+      "p(95)": 73.67202479999973,
+      "p(99)": 110.75590763999995,
+      "max": 116.650395,
+      "avg": 8.34961704,
+      "min": 0
+    },
+    "data_received": {
+      "count": 29115,
+      "rate": 370.4519877285602
+    },
+    "http_req_receiving": {
+      "max": 0.836849,
+      "avg": 0.16961408,
+      "min": 0.046282,
+      "med": 0.077107,
+      "p(90)": 0.3174418,
+      "p(95)": 0.5075557999999993,
+      "p(99)": 0.7686856399999994
+    },
+    "data_sent": {
+      "count": 7718,
+      "rate": 98.20190421738032
+    },
+    "http_req_sending": {
+      "min": 0.083428,
+      "med": 0.168858,
+      "p(90)": 0.440324,
+      "p(95)": 0.4932547999999998,
+      "p(99)": 0.8138569599999992,
+      "max": 0.911542,
+      "avg": 0.22977632000000003
+    },
+    "http_req_duration": {
+      "p(99)": 459.3401976799994,
+      "max": 529.109336,
+      "avg": 149.2158,
+      "min": 109.407272,
+      "med": 123.081315,
+      "p(90)": 202.3843588000001,
+      "p(95)": 236.6976724
+    },
+    "vus": {
+      "value": 1,
+      "min": 1,
+      "max": 1
+    },
+    "vus_max": {
+      "value": 1,
+      "min": 1,
+      "max": 1
+    },
+    "iteration_duration": {
+      "p(90)": 20243.4883895,
+      "p(95)": 20399.52668675,
+      "p(99)": 20524.35732455,
+      "max": 20555.564984,
+      "avg": 19459.106565249996,
+      "min": 18252.588286,
+      "med": 19514.1364955
+    },
+    "http_req_failed": {
+      "passes": 0,
+      "fails": 25,
+      "thresholds": {
+        "rate<0.01": false
+      },
+      "value": 0
+    },
+    "checks": {
+      "passes": 104,
+      "fails": 0,
+      "thresholds": {
+        "rate>0.99": false
+      },
+      "value": 1
+    },
+    "http_req_blocked": {
+      "p(99)": 453.97373939999943,
+      "max": 525.834723,
+      "avg": 30.09121744,
+      "min": 0.000301,
+      "med": 0.000599,
+      "p(90)": 0.010482800000000018,
+      "p(95)": 181.13439599999936
+    },
+    "http_req_tls_handshaking": {
+      "avg": 12.33503316,
+      "min": 0,
+      "med": 0,
+      "p(90)": 0,
+      "p(95)": 87.61078479999969,
+      "p(99)": 177.4186199199998,
+      "max": 198.862348
+    },
+    "http_req_waiting": {
+      "p(99)": 459.1531291199994,
+      "max": 528.913788,
+      "avg": 148.81640959999996,
+      "min": 109.107996,
+      "med": 122.65568,
+      "p(90)": 202.2288688000001,
+      "p(95)": 236.53591999999998
+    },
+    "http_req_duration{expected_response:true}": {
+      "max": 529.109336,
+      "avg": 149.2158,
+      "min": 109.407272,
+      "med": 123.081315,
+      "p(90)": 202.3843588000001,
+      "p(95)": 236.6976724,
+      "p(99)": 459.3401976799994
+    },
+    "iterations": {
+      "count": 4,
+      "rate": 0.05089500089006495
+    }
+  }
+}

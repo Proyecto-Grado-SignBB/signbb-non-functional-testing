@@ -1,0 +1,228 @@
+{
+  "archivo": "pruebas/resultados/access.log",
+  "total": 31432,
+  "4xx": 22,
+  "5xx": 0,
+  "endpoints": [
+    {
+      "metodo": "POST",
+      "ruta": "/api/recorridos/{id}/respuestas",
+      "n": 16146,
+      "4xx": 1,
+      "5xx": 0,
+      "p50": 9.662,
+      "p95": 21.695,
+      "p99": 49.628,
+      "max": 227.145
+    },
+    {
+      "metodo": "POST",
+      "ruta": "/api/recorridos",
+      "n": 3625,
+      "4xx": 0,
+      "5xx": 0,
+      "p50": 4.025,
+      "p95": 33.114,
+      "p99": 274.527,
+      "max": 467.248
+    },
+    {
+      "metodo": "DELETE",
+      "ruta": "/api/autoria/subgrafos/{id}",
+      "n": 1657,
+      "4xx": 0,
+      "5xx": 0,
+      "p50": 3.879,
+      "p95": 8.515,
+      "p99": 19.19,
+      "max": 89.004
+    },
+    {
+      "metodo": "DELETE",
+      "ruta": "/api/autoria/subgrafos/{id}/nodos/{nodo}",
+      "n": 1657,
+      "4xx": 0,
+      "5xx": 0,
+      "p50": 4.881,
+      "p95": 13.333,
+      "p99": 28.445,
+      "max": 51.863
+    },
+    {
+      "metodo": "GET",
+      "ruta": "/api/autoria/subgrafos/{id}",
+      "n": 1657,
+      "4xx": 0,
+      "5xx": 0,
+      "p50": 3.78,
+      "p95": 9.712,
+      "p99": 29.881,
+      "max": 46.402
+    },
+    {
+      "metodo": "POST",
+      "ruta": "/api/autoria/subgrafos",
+      "n": 1657,
+      "4xx": 0,
+      "5xx": 0,
+      "p50": 6.923,
+      "p95": 18.786,
+      "p99": 235.616,
+      "max": 316.317
+    },
+    {
+      "metodo": "POST",
+      "ruta": "/api/autoria/subgrafos/{id}/nodos",
+      "n": 1657,
+      "4xx": 0,
+      "5xx": 0,
+      "p50": 5.186,
+      "p95": 15.034,
+      "p99": 103.686,
+      "max": 237.972
+    },
+    {
+      "metodo": "PUT",
+      "ruta": "/api/autoria/subgrafos/{id}/nodos/{nodo}",
+      "n": 1657,
+      "4xx": 0,
+      "5xx": 0,
+      "p50": 5.309,
+      "p95": 14.601,
+      "p99": 78.077,
+      "max": 158.999
+    },
+    {
+      "metodo": "POST",
+      "ruta": "/api/auth/login",
+      "n": 1635,
+      "4xx": 1,
+      "5xx": 0,
+      "p50": 724.649,
+      "p95": 1126.424,
+      "p99": 1534.322,
+      "max": 2284.97
+    },
+    {
+      "metodo": "POST",
+      "ruta": "/api/auth/registro",
+      "n": 52,
+      "4xx": 0,
+      "5xx": 0,
+      "p50": 74.295,
+      "p95": 98.162,
+      "p99": 161.857,
+      "max": 161.857
+    },
+    {
+      "metodo": "GET",
+      "ruta": "/api/consulta/disponibilidad",
+      "n": 6,
+      "4xx": 4,
+      "5xx": 0,
+      "p50": 2.931,
+      "p95": 14.795,
+      "p99": 14.795,
+      "max": 14.795
+    },
+    {
+      "metodo": "GET",
+      "ruta": "/api/auth/yo",
+      "n": 4,
+      "4xx": 1,
+      "5xx": 0,
+      "p50": 3.127,
+      "p95": 9.332,
+      "p99": 9.332,
+      "max": 9.332
+    },
+    {
+      "metodo": "GET",
+      "ruta": "/api/autoria/subgrafos",
+      "n": 4,
+      "4xx": 2,
+      "5xx": 0,
+      "p50": 3.58,
+      "p95": 28.719,
+      "p99": 28.719,
+      "max": 28.719
+    },
+    {
+      "metodo": "GET",
+      "ruta": "/api/recorridos",
+      "n": 4,
+      "4xx": 3,
+      "5xx": 0,
+      "p50": 2.861,
+      "p95": 193.758,
+      "p99": 193.758,
+      "max": 193.758
+    },
+    {
+      "metodo": "GET",
+      "ruta": "/api/usuarios",
+      "n": 4,
+      "4xx": 3,
+      "5xx": 0,
+      "p50": 2.761,
+      "p95": 26.468,
+      "p99": 26.468,
+      "max": 26.468
+    },
+    {
+      "metodo": "GET",
+      "ruta": "/api/autoria/revisiones",
+      "n": 3,
+      "4xx": 2,
+      "5xx": 0,
+      "p50": 3.615,
+      "p95": 12.627,
+      "p99": 12.627,
+      "max": 12.627
+    },
+    {
+      "metodo": "GET",
+      "ruta": "/api/recorridos/{id}",
+      "n": 3,
+      "4xx": 2,
+      "5xx": 0,
+      "p50": 4.464,
+      "p95": 4.751,
+      "p99": 4.751,
+      "max": 4.751
+    },
+    {
+      "metodo": "POST",
+      "ruta": "/api/autoria/subgrafos/{id}/aprobar",
+      "n": 2,
+      "4xx": 2,
+      "5xx": 0,
+      "p50": 3.054,
+      "p95": 7.384,
+      "p99": 7.384,
+      "max": 7.384
+    },
+    {
+      "metodo": "GET",
+      "ruta": "/api/autoria/categorias",
+      "n": 1,
+      "4xx": 0,
+      "5xx": 0,
+      "p50": 100.532,
+      "p95": 100.532,
+      "p99": 100.532,
+      "max": 100.532
+    },
+    {
+      "metodo": "POST",
+      "ruta": "/api/usuarios",
+      "n": 1,
+      "4xx": 1,
+      "5xx": 0,
+      "p50": 2.823,
+      "p95": 2.823,
+      "p99": 2.823,
+      "max": 2.823
+    }
+  ]
+}
