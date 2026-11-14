@@ -1,9 +1,9 @@
 # Pruebas de desempeño y seguridad — despliegue VPS
 
 Suite para el despliegue de pruebas de SignBB. El escenario de desempeño es
-**100 VUs constantes**; no se ejecuta el escenario de 500. La seguridad se
-concentra en **AS-02** (control de acceso) y **AS-06** (bloqueo por intentos).
-AS-01 queda cubierto por las pruebas locales y no se repite aquí.
+**100 VUs constantes**. La seguridad se concentra en **AS-02** (control de
+acceso) y **AS-06** (bloqueo por intentos). AS-01 queda cubierto por las
+pruebas locales y no se repite aquí.
 
 ## Estructura del repositorio
 
@@ -207,7 +207,7 @@ entorno de pruebas.
 - **Seguridad**: AS-02 con matriz de roles y propiedad del recorrido; AS-06 con
   la secuencia de 5 fallos y el sexto intento bloqueado, persistencia en base y
   recuperación a los 15 minutos.
-- **Fuera de alcance**: escenario de 500 VUs, pruebas de estrés y verificación
-  de hashes de AS-01 (cubierta localmente). No se usa OWASP ZAP.
+- **Fuera de alcance**: pruebas de estrés y verificación de hashes de AS-01
+  (cubierta localmente). No se usa OWASP ZAP.
 - **Informe**: `AGENTS/Informe_Pruebas_VPS.md`, en el repositorio principal de
   documentación, con las convenciones de los artefactos de documentación.
